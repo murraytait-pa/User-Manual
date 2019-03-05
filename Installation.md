@@ -4,7 +4,6 @@
 This section describes how to install Iota on Windows 7 and Windows 10.
 
 
-
 1. **Download** iota-installer-Windows-XX.X.exe into a directory using the download link provided by Particle Analytics.
 
 2. **Execute** the iota-installer-Windows-XX.X.exe as administrator.
