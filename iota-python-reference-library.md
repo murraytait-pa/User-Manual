@@ -18,17 +18,7 @@ This section provides a description of the modules, classes, and methods in the 
 [`iota.coarsegrainig`](coarsegraining.md) Running coarse-graining transformation
 
 
-### Enum
-
-[`iota.IO_Type`](iota_enums.md) types of access for a dataset
-
-[`iota.MeshType`](iota_enums.md) types of meshes available in a dataset
-
-[`iota.ResultType`](iota_enums.md) types of results avaialble in a dataset
-
-[`iota.DatasetType`](iota_enums.md) types of datasets accepted in the system
-
-### Data
+### Auxiliar
 
 [`iota.ALL_COMPONENTS`](auxiliar.md) result component index representing all components
 
