@@ -60,32 +60,32 @@ This section describes how to install Iota on Windows 7 and Windows 10.
 
 **Windows 7**
 
-  1. From the desktop, right click the **Computer** icon.
+     1. From the desktop, right click the **Computer** icon.
 
-  2. Choose **Properties** from the context menu.
+     2. Choose **Properties** from the context menu.
 
-  3. Click the **Advanced system settings** link.
+     3. Click the **Advanced system settings** link.
 
-  4. Click **Environment Variables**. In the section **User Variables for ...**, Click **New**. 
+     4. Click **Environment Variables**. In the section **User Variables for ...**, Click **New**. 
 
-  5. In the **New User Variable** window, specify **Variable Name:** `IOTA_PATH`
+     5. In the **New User Variable** window, specify **Variable Name:** `IOTA_PATH`
 
-  6. In the **New User Variable** window,  Click **Browse Directory...** . and select the folder where Iota was installed (e.g. `C:\Program Files\iota_suite`) and click **OK**.
+     6. In the **New User Variable** window,  Click **Browse Directory...** . and select the folder where Iota was installed (e.g. `C:\Program Files\iota_suite`) and click **OK**.
 
-  7. In the **New User Variable** window, double-check that Variable value shows the path to `iota_suite` directory and click **OK.** 
+     7. In the **New User Variable** window, double-check that Variable value shows the path to `iota_suite` directory and click **OK.** 
 
-  8. In the **Environment Variables** window, click **OK.**
+     8. In the **Environment Variables** window, click **OK.**
 
-  9. In the **System Properties** window, click **OK.**
+     9. In the **System Properties** window, click **OK.**
 
 
 11. Go to Windows Start Menu and look for **Iota**.
 
-    ![](/images/Installation_Iota_Menu.PNG)
-    
+   ![](/images/Installation_Iota_Menu.PNG)
+
 12. Menu entry Iota Suite will show the following options:
 
-    1. **Iota iPython Terminal** gives access to a IPython terminal where the user can import and use the Iota Python Library
-    2. **Iota Jupyter** launches [Jupyter Notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) where the users can create and load their notebooks and conduct the analyses of their simulations data.
-    3. **Iota Manual** provides access to the online Iota user manual
-    4. **License registration** allows users to get the information required to generate and register a license file
+    * **Iota iPython Terminal** gives access to a IPython terminal where the user can import and use the Iota Python Library
+    * **Iota Jupyter** launches [Jupyter Notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) where the users can create and load their notebooks and conduct the analyses of their simulations data.
+    * **Iota Manual** provides access to the online Iota user manual
+    * **License registration** allows users to get the information required to generate and register a license file
