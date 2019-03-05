@@ -11,50 +11,31 @@ This section describes how to install Iota on Windows 7 and Windows 10.
 
 3. The Iota Suite Setup welcome window will show up. You need to click **Next >**
 
+   ![](/images/Installation_Welcome_to_Iota_Setup.PNG)
    
-
-   ![Installation_Welcome_to_Iota_Setup](C:\Users\AJanda\Documents\Iota_Reborn_documentation\images\Installation_Welcome_to_Iota_Setup.PNG)
-
-   
-
 4. Review and accept the terms of the license agreement by clicking **I Agree.**
 
-   
-
-   ![Installation_License_agreement](C:\Users\AJanda\Documents\Iota_Reborn_documentation\images\Installation_License_agreement.PNG)
-
-   
-
+   ![](/images/Installation_License_agreement.PNG)
+  
 5. Select the destination folder for Iota installation and click **Next >**. The default destination folder for the installation is  `C:\Program Files\iota_suite`.
-
    
+   ![](/images/Installation_location.PNG)
 
-   ![Installation_location](C:\Users\AJanda\Documents\Iota_Reborn_documentation\images\Installation_location.PNG)
-
-   
 
 6. Select the name for the Start Menu folder that will appear in the Windows Start Menu and click **Next >**. The default name is `Iota` 
-
    
+   ![](/images/Installation_Start_Menu_folder.PNG)
 
-   ![Installation_Start_Menu_folder](C:\Users\AJanda\Documents\Iota_Reborn_documentation\images\Installation_Start_Menu_folder.PNG)
-
-   
 
 7. Select the components to install and click **Install**. If you are installing Iota for first time, you need to select all components to install.
-
    
-
-   ![Installation_Choose_Components](C:\Users\AJanda\Documents\Iota_Reborn_documentation\images\Installation_Choose_Components.PNG)
-
-   
+   ![](/images/Installation_Choose_Components.PNG)
 
 8. Wait until the installation process finishes.
 
 9. Once Iota has been installed, click on **Finish** to close the Iota Suite Setup.
 
 10. **Create a new environment variable** called `IOTA_PATH` that points to the installation directory of Iota (see step 5 of Installation Instructions):
-
     
 
 **Windows 10**
@@ -98,15 +79,10 @@ This section describes how to install Iota on Windows 7 and Windows 10.
   9. In the **System Properties** window, click **OK.**
 
 
-
 11. Go to Windows Start Menu and look for **Iota**.
 
+    ![](/images/Installation_Iota_Menu.PNG)
     
-
-    ![Installation_Iota_Menu](C:\Users\AJanda\Documents\Iota_Reborn_documentation\images\Installation_Iota_Menu.PNG)
-
-    
-
 12. Menu entry Iota Suite will show the following options:
 
     1. **Iota iPython Terminal** gives access to a IPython terminal where the user can import and use the Iota Python Library
