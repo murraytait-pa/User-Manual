@@ -5,24 +5,24 @@ This section provides a description of the modules, classes, and methods in the 
 
 ### Modules
 
-[`iota.dataset`](datasets.md) Interrogating and editing simulation datasets 
+[iota.dataset](datasets.md) Interrogating and editing simulation datasets 
 
-[`iota.graph`](graphs.md) generating and visualizing graphs
+[iota.graph](graphs.md) generating and visualizing graphs
 
-[`iota.media`](media.md) Visualizing screeenshots and videos in the notebooks
+[iota.media](media.md) Visualizing screenshots and videos in the notebooks
 
-[`iota.render`](render.md) 3D interactive rendering, screenshot and video generation
+[iota.render](render.md) 3D interactive rendering, screenshot and video generation
 
-[`iota.mesh`](mesh.md) Interrogating and editing mesh data
+[iota.mesh](mesh.md) Interrogating and editing mesh data
 
-[`iota.coarsegrainig`](coarsegraining.md) Running coarse-graining transformation
+[iota.coarsegrainig](coarsegraining.md) Running coarse-graining transformation
 
 
 ### Auxiliar
 
-[`iota.ALL_COMPONENTS`](auxiliar.md) result component index representing all components
+[iota.ALL_COMPONENTS](auxiliar.md) component index representing all components
 
-[`iota.ALL_STEPS`](auxiliar.md) result step index representing all steps
+[iota.ALL_STEPS](auxiliar.md) step index representing all steps
 
-[`iota.STATIC_MESH`](auxiliar.md) resut mesh index representing static meshes
+[iota.STATIC_MESH](auxiliar.md) mesh index representing static meshes
 
