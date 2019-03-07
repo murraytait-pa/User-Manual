@@ -309,6 +309,8 @@ print(layout_settings)
 - `title` : (str) title for the graph (Default: **None**)
 - `x_label`: (str) title for the x-axis (Default: **None**)
 - `y_label`: (str) title for the y-axis (Default: **None**)
+- `x_range`: (list of two floats): Min and Max values defining the range of the x-axis (Default: **None**)
+- `y_range`: (list of two floats): Min and Max values defining the range of the y-axis (Default: **None**)
 - `width`: (int) width of the graph in pixels (Default: **None**)
 - `height`: (int) width of the graph in pixels (Default: **None**)
 
