@@ -10,14 +10,16 @@ The [Jupyter Notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/e
 ![](/images/License_registration_Iota_Jupyter.PNG)
   
 
-After clicking on the "Iota Jupyter" shortcut, a command window will be open and after a few second, the home page of Jupyter will be automatically open in a tab of your default web browser (see picture below)
+After clicking on the "Iota Jupyter" shortcut, a command window will be open and after a few second, the home page of Jupyter will be automatically open in a tab of your default web browser (see picture below).
 
 ![](/images/Getting_started_Jupyter_Notebooks_tree.PNG)
 
-
-
-
 ## Creating a new notebook
+Next step is to create a new notebook where the analysis of the simulation data will be conducted. To do so, click on "**New**" and then select the option "Notebook:" > "**iota**"
+
+
+
+As a good practice, it is recommended to create first a folder for your analysis and then create the notebook inside that folder. This way the notebook of the analysis and any images, videos or other files generated during the analysis will be stored together inside the same folder. A new folder can be created from the Jupyter home page by clicking on the "New" button located at the right side of the window and then select the option "Other:" > "Folder". Alternatively, the folder can also be created using the standard procedure of your operative system.
 
 
 ## Importing Iota library
