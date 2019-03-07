@@ -323,7 +323,12 @@ my_graph.set_layout(title='My new graph',
                     x_label='time (s)', 
                     y_label='Pressure (kPa)')
 ```
+*Setting the range of the x-axis and y-axis to [0, 100] and [50, 600] respectively*
 
+```python
+my_graph.set_layout(x_range=[0, 100], 
+                    y_range=[50, 600])
+```
 
 
 #### <a id='plot_xy'></a>[Graph.plot_xy(x, y, name, title, x_label, y_label, layout)](#plot_xy)
