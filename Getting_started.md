@@ -1,9 +1,23 @@
 
 # Getting started with Iota
 
-This section provides an introduction on how to start using the Iota Python Library from a Jupyter notebook. The [Jupyter Notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) is installed during the installation process of Iota and is available at the Start menu inside the "Iota" folder.
+This section provides an introduction on how to start using the Iota Python Library from a Jupyter notebook. 
 
-## Starting a new Iota notebook 
+## Starting Iota Jupyter
+
+The [Jupyter Notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) is installed during the installation process of Iota. "Iota Jupyter" can be started by clicking on its shortcut available in the "Iota" folder at the Start menu of the your operative system.
+
+![](/images/License_registration_Iota_Jupyter.PNG)
+  
+
+After clicking on the "Iota Jupyter" shortcut, a command window will be open and after a few second, the home page of Jupyter will be automatically open in a tab of your default web browser (see picture below)
+
+![](/images/Getting_started_Jupyter_Notebooks_tree.PNG)
+
+
+
+
+## Creating a new notebook
 
 
 ## Importing Iota library
