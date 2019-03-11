@@ -93,12 +93,13 @@ This module provides the methods to load,  access, interrogate the data from the
 
 #### <a id='load_fluent'></a>[iota.dataset.load_fluent(case_files, data_files, metadata, calculate_minmax)](#load_fluent)
 
-*Loads a dataset from an existent ANSYS Fluent simulation*
+*Loads a dataset from an existent ANSYS Fluent simulation. The simulation can contain DPM dataset*
 
 **Parameters**
 
 * `case_files`: ([str]) a list of file path/s to the case file/s of the ANSYS Fluent simulation (Default: **None**)
 * `data_files`: ([str]) a list of file path/s to the data file/s of the ANSYS Fluent simulation (Default: **None**)
+* `encase_files`: ([str]) a list of file path/s to the encas Ensight file/s exported from the ANSYS Fluent simulation with the DPM data (Default: **None**)
 * `metadata`: (str) file path to the metadata for the dataset (Default: **None**)
 * `calculate_minmax`: (bool) enables the calculation of the global min and max value for each result when loading the dataset (Default: **False**)
 
@@ -123,6 +124,15 @@ my_dataset = iota.dataset.load_fluent(
     data_files = ['C:\Users\Stephen\MySimulation\my_fluent_simulation-100.dat.gz',
         'C:\Users\Stephen\MySimulation\my_fluent_simulation-200.dat.gz',
         'C:\Users\Stephen\MySimulation\my_fluent_simulation-300.dat.gz']
+)
+```
+
+_Loading a single case file, a single data file and a encase file with the DPM data_
+```python
+my_dataset = iota.dataset.load_fluent(
+    case_files = ['C:\Users\Stephen\MySimulation\my_fluent_simulation.cas.gz'],
+    data_files = ['C:\Users\Stephen\MySimulation\my_fluent_simulation.dat.gz'],
+    encase_files = [''C:\Users\Stephen\MySimulation\my_dpm_data.new.encas']
 )
 ```
 
