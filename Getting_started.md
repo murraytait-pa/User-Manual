@@ -1,9 +1,8 @@
-
 # Getting started with Iota
 
-This section provides an introduction on how to start using the Iota Python Library from a Jupyter notebook. 
+This section provides an introduction on how to start using the Iota Python Library from a Jupyter notebook. The dataset run the step
 
-## Starting Iota Jupyter
+## <a id='starting-jupyter'></a>[Starting Iota Jupyter](#starting-jupyter)
 
 The [Jupyter Notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) is installed during the installation process of Iota. "Iota Jupyter" can be started by clicking on its shortcut available in the "Iota" folder at the Start menu of the your operative system.
 
@@ -14,7 +13,8 @@ After clicking on the "Iota Jupyter" shortcut, a command window will be open and
 
 ![](/images/Getting_started_Jupyter_Notebooks_tree.PNG)
 
-## Creating a new notebook
+## <a id='creating-a-new-notebook'></a>[Creating a new notebook](#creating-a-new-notebook)
+
 Next step is to create a new notebook where the analysis of the simulation data will be conducted. To do so, click on "**New**" and then select the option "Notebook:" > "**iota**"
 
 ![](/images/Getting_started_Jupyter_Notebooks_New_Notebook.PNG)
@@ -26,15 +26,13 @@ The new empty notebook will be created and opened in new tab in your web browser
 
 As a good practice, it is recommended to create first a folder for your analysis and then create the notebook inside that folder. This way the notebook of the analysis and any images, videos or other files generated during the analysis will be stored together inside the same folder. A new folder can be created from the Jupyter home page by clicking on the "New" button located at the right side of the window and then select the option "Other:" > "Folder". Alternatively, the folder can also be created using the standard procedure of your operative system.
 
-## Importing Iota library
-
+## <a id='importing-iota-library'></a>[Importing iota library](#importing-iota-library)
 
 ```python
 import iota
 ```
 
-## Loading a dataset
-
+## <a id='loading-fluent-dpm'></a>[Loading Fluent CFD and DPM simulation data](#loading-fluent-dpm)
 
 ```python
 my_dataset = iota.dataset.load_fluent(case_files=['C:/Users/AJanda/Desktop/Demo_example/Fluent/Radiation_hdf5/Astec-radiation-240s.cas.h5'],
