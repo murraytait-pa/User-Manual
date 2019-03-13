@@ -15,7 +15,7 @@ After clicking on the "Iota Jupyter" shortcut, a command window will be open and
 
 ## <a id='creating-a-new-notebook'></a>[Creating a new notebook](#creating-a-new-notebook)
 
-Next step is to create a new notebook where the analysis of the simulation data will be conducted. To do so, click on "**New**" and then select the option "Notebook:" > "**iota**"
+Next step is to create a new notebook where the analysis of the simulation data can be conducted using the Iota Python Library. To do so, click on "**New**" and then select the option "Notebook:" > "**iota**"
 
 ![](/images/Getting_started_Jupyter_Notebooks_New_Notebook.PNG)
 
@@ -23,14 +23,12 @@ The new empty notebook will be created and opened in new tab in your web browser
 
 ![](/images/Getting_started_iota_notebook.PNG)
 
-
 As a good practice, it is recommended to create first a folder for your analysis and then create the notebook inside that folder. This way the notebook of the analysis and any images, videos or other files generated during the analysis will be stored together inside the same folder. A new folder can be created from the Jupyter home page by clicking on the "New" button located at the right side of the window and then select the option "Other:" > "Folder". Alternatively, the folder can also be created using the standard procedure of your operative system.
 
 
 ## <a id='what-is-notebook'></a>[Creating a new notebook](#creating-a-new-notebook)
 
-A notebook consists on a sequence of cells. Each cell can contain multipleline of  
-
+A notebook consists on a sequence of cells. Each cell can multiple commands or text to be executed. The execution of the cell can be triggered b user can execute those lines 
 
 https://jupyter-notebook.readthedocs.io/en/stable/notebook.html
 
