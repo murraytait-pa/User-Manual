@@ -1,4 +1,4 @@
-# Getting started with Iota
+# Quick start with Iota
 
 This section provides an introduction on how to start using the Iota Python Library from a Jupyter notebook. The dataset run the step
 
@@ -28,63 +28,14 @@ As a good practice, it is recommended to create first a folder for your analysis
 
 ## <a id='importing-iota-library'></a>[Importing iota library](#importing-iota-library)
 
-```python
-import iota
-```
-
-## <a id='loading-fluent-dpm'></a>[Loading Fluent CFD and DPM simulation data](#loading-fluent-dpm)
-
-```python
-my_dataset = iota.dataset.load_fluent(case_files=['C:/Users/AJanda/Desktop/Demo_example/Fluent/Radiation_hdf5/Astec-radiation-240s.cas.h5'],
-                             data_files=['C:/Users/AJanda/Desktop/Demo_example/Fluent/Radiation_hdf5/Astec-radiation-240s.dat.h5'])
-```
-
-    C:\Users\AJanda\Desktop\Demo_example\Fluent\Radiation_hdf5/Astec-radiation-240s.cas.json has been created
-    Dataset successfully loaded
 
 
-## Visualizing a datataset
-
-
-```python
-my_scene = iota.render.Scene(dataset=my_dataset)
-```
-
-
-```python
-my_scene.display(timestep=0, width=900, height=600)
-```
-
-
-    ---------------------------------------------------------------------------
-    
-    AttributeError                            Traceback (most recent call last)
-    
-    <ipython-input-9-db2223094d1f> in <module>()
-    ----> 1 my_scene.display(timestep=0, width=900, height=600)
-
-
-    C:\Program Files\iota_suite\iota\render\scene.py in display(self, width, height, timestep)
-        933             first_displayable = list(self._graphics_displayables.values())[0].displayable
-        934 
-    --> 935         scene_bounding_box_low_left = first_displayable.bounding_box_low_left
-        936         scene_bounding_box_up_right = first_displayable.bounding_box_up_right
-        937 
-
-
-    AttributeError: 'NoneType' object has no attribute 'bounding_box_low_left'
+## <a id='importing-iota-library'></a>[Importing iota library](#importing-iota-library)
 
 
 
-```python
-my_graph = iota.graph.Graph()
-```
-
-```python
-my_graph.add_trace(x=[0,1,2,3], y=[0,1,2,3], name='Trace1')
-```
 
 
-```python
-my_graph.display()
-```
+## <a id='getting-started-notebook'></a>[Getting started notebook](#getting-started-notebook)
+
+A getting started package that includes a example ANSYS Fluent simulation data files and a notebook with instructions to perfrom the post-analysis of the simulation data can be downloaded here: Download 
