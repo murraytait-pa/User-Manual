@@ -4,8 +4,12 @@
 * [Installing Iota](Installation.md)
 * [Registering Iota license](Registration.md)
 * [Getting started](Getting_started.md)
-  * [Starting a new notebook](Getting_started/Getting_started.md#Starting_new_notebook)
-  * [Loading a dataset]()
+  * [Starting Iota Jupyter](Getting_started.md#starting-jupyter)
+  * [Creating a new notebook](Getting_started.md#creating-a-new-notebook)
+  * [] 
+
+
+
   * [Visualizing a result from a dataset]()
   * [Running coarse-graining]()
   * [Visualizing coarse-graining results]()

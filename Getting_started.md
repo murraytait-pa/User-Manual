@@ -26,12 +26,26 @@ The new empty notebook will be created and opened in new tab in your web browser
 
 As a good practice, it is recommended to create first a folder for your analysis and then create the notebook inside that folder. This way the notebook of the analysis and any images, videos or other files generated during the analysis will be stored together inside the same folder. A new folder can be created from the Jupyter home page by clicking on the "New" button located at the right side of the window and then select the option "Other:" > "Folder". Alternatively, the folder can also be created using the standard procedure of your operative system.
 
+
+## <a id='what-is-notebook'></a>[Creating a new notebook](#creating-a-new-notebook)
+
+A notebook consists on a sequence of cells. Each cell can contain multipleline of  
+
+
+https://jupyter-notebook.readthedocs.io/en/stable/notebook.html
+
+The notebook consists of a sequence of cells. A cell is a multiline text input field, and its contents can be executed by using Shift-Enter, or by clicking either the “Play” button the toolbar, or Cell, Run in the menu bar. The execution behavior of a cell is determined by the cell’s type. There are three types of cells: code cells, markdown cells, and raw cells. Every cell starts off being a code cell, but its type can be changed by using a drop-down on the toolbar (which will be “Code”, initially), or via keyboard shortcuts.
+
+
 ## <a id='importing-iota-library'></a>[Importing iota library](#importing-iota-library)
+The first step to start working with the Iota Python Library is to import the library into the notebook. To this end, you will need to type the following in the first code cell of your notebook:
 
+``` python
+import iota
+```
 
-
-## <a id='importing-iota-library'></a>[Importing iota library](#importing-iota-library)
-
+## <a id='loading-a-dataset'></a>[Loading a simulation dataset](#loading-a-dataset)
+ 
 
 
 
