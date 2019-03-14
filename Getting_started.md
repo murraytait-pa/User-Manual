@@ -4,19 +4,19 @@ This section provides an introduction on how to start using the Iota software. P
 
 ## <a id='starting-jupyter'></a>[Starting Iota Jupyter](#starting-jupyter)
 
-The [Jupyter Notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) is installed during the installation process of Iota. Usce can start Jupyter by clicking on the shortcut "Iota Jupyter" that can be found the "Iota" folder at the Start menu of the your operative system.
+The [Jupyter Notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) is installed during the installation process of Iota. Users can start Jupyter by clicking on the shortcut "Iota Jupyter" that can be found the "Iota" folder at the Start menu of their operative system.
 
 
 ![](/images/License_registration_Iota_Jupyter.PNG)
   
 
-After clicking on the "Iota Jupyter" shortcut, a command window will be open and after a few seconds, the home page of Jupyter will be automatically open in a tab of your default web browser (see picture below). By default, "Iota Jupyter" is started at the "ParticleAnalytics" folder located in the home directory of your operative system (e.g. `C:/Users/Stephen/ParticleAnalytics`). The home page of Jupyter will show the content of your "ParticleAnalytics" folder.
+After clicking on the "Iota Jupyter" shortcut, a command window will be open and after a few seconds, the home page of Jupyter will be automatically open in a tab of the user's default web browser (see picture below). "Iota Jupyter" is started, by default, at the "ParticleAnalytics" folder located in the user's home directory of the operative system (e.g. `C:/Users/Stephen/ParticleAnalytics`). Therefore, the home page of Jupyter shows the content of "ParticleAnalytics" folder.
 
 ![](/images/Getting_started_Jupyter_Notebooks_tree.PNG)
 
 ## <a id='creating-a-new-notebook'></a>[Creating a new notebook](#creating-a-new-notebook)
 
-Before starting to analyze your simulation data, you will need to create an Iota notebook using Next step is to create a new notebook where the analysis of the simulation data can be conducted using the Iota Python Library. To do so, click on "**New**" and then select the option "Notebook:" > "**iota**"
+Before starting to analyze your simulation data, users will need to create an Iota notebook where the analysis of the simulation data can be conducted. To do so, click on "**New**" and then select the option "Notebook:" > "**iota**"
 
 ![](/images/Getting_started_Jupyter_Notebooks_New_Notebook.PNG)
 
