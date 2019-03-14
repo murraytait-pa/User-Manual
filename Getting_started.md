@@ -33,19 +33,19 @@ As a good practice, it is recommended to create first a folder for your analysis
 A notebook can be understood as an interactive journal that records the analysis of one or more simulations. It contains a sequence of cells that capture the different steps of the analysis. Cells can contains multiple lines where users can type python commands or simple text. Two type of cells are mainly used:
 
 * **Code cells**: users can type python functions including those provided by the Iota Python library.
-
 * **Markdown cells**: users can type here text to add comments for their analysis.
 
-By default, all new cells are initially added as a code cell, but users can change its type by using the drop-down on the toolbar of the notebook. Users can execute the content of a cell by using Shift-Enter or by clicking the "Run" button on the toolbar. Also, users can add new cells using 
+By default, all new cells are initially added as a code cell, but users can change its type by using the drop-down on the toolbar of the notebook. Users can execute the content of a cell by using Shift-Enter or by clicking the "Run" button on the toolbar. New cells can be added by using the "+" button also located also on the toolbar.
 
 For more detailed information about Jupyter notebooks and the user interface components, please see the following link: [The Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#)
 
 
-
 ## <a id='getting-started-notebook'></a>[Getting started notebook](#getting-started-notebook)
 
-A getting started package can be downloaded from here: [Download link](https://s3-eu-west-1.amazonaws.com/particle-analytics/Getting_Started_Notebook.zip). The package includes the files for an ANSYS Fluent simulation with Discrete Phase Modelling data
+A getting started package is available for users and can be downloaded from the following link : [Download link](https://s3-eu-west-1.amazonaws.com/particle-analytics/Getting_Started_Notebook.zip). The package contains a notebook where the most common steps to use Iota to analyze an ANSYS Fluent simulation with Discrete Phase Modelling data are described. 
 
-
-After downloaded, 
-The getting started notebook covers the most common
+1. Click on the following link to download the zip file that contains the getting started package, 
+2. Unzip the download file into the "ParticleAnalytics" folder located in the user's home directory (e.g. `C:/Users/Stephen/ParticleAnalytics`)
+3. Start "Iota Jupyter" using the shortcut in the Start Menu of the operative system.
+4. In the Dashboard of Jupyter, click on the folder "Getting_Started_Notebook"  
+5. Click on the "Getting Started Notebook" notebook to open it and follow the instructions in it.  
