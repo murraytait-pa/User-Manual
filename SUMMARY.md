@@ -3,6 +3,9 @@
 * [Installing Iota](Installation.md)
 * [Registering Iota license](Registration.md)
 * [Getting started](Getting_started.md)
+## <a id='starting-jupyter'></a>[Starting Iota Jupyter](#starting-jupyter)
+
+
   * [Starting Iota Jupyter](Getting_started.md#starting-jupyter)
   * [Creating a new notebook](Getting_started.md#creating-a-new-notebook)
   * [What is a notebook](Getting_started.md#what-is-a-notebook)
