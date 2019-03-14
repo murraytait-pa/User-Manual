@@ -11,6 +11,8 @@
   * [Support ANSYS Fluent simulations](Support_ANSYS_Fluent.md)
   * [Support EDEM simulations](Support_EDEM.md)
   * [Support LIGGGHTS simulations](Support_LIGGGHTS.md)
+    * [LIGGGHTS-DUMP](/LIGGGHTS/Using_LIGGGHTS_dump.md)
+    * [LIGGGHTS-VTK](/LIGGGHTS/Using_LIGGGHTS_VTK.md)
 * [Iota Python Reference Library](iota-python-reference-library.md)
   * [iota.dataset](dataset.md)
   * [iota.graph](graph.md)
