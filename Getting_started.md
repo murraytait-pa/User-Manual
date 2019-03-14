@@ -9,7 +9,7 @@ The [Jupyter Notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/e
 
 ![](/images/License_registration_Iota_Jupyter.PNG)
   
-After clicking on the "Iota Jupyter" shortcut, a command window will be open and after a few seconds, the home page of Jupyter will be automatically open in a tab of the user's default web browser (see picture below). This home page shows the content of the working directory of Iota. By default, this working directory is the "ParicleAnalytics" folder located in the user's home directory of the operative system (e.g. `C:/Users/Stephen/ParticleAnalytics`).
+After clicking on the "Iota Jupyter" shortcut, a command window will be open and after a few seconds, the dashboard of Jupyter will be automatically open in a tab of the user's default web browser (see picture below). This dashboard shows the content of the working directory of Iota. By default, this working directory is the "ParicleAnalytics" folder located in the user's home directory of the operative system (e.g. `C:/Users/Stephen/ParticleAnalytics`).
 
 ![](/images/Getting_started_Jupyter_Notebooks_tree.PNG)
 
@@ -30,11 +30,15 @@ As a good practice, it is recommended to create first a folder for your analysis
 
 ## <a id='what-is-a-notebook'></a>[What is a notebook?](#what-is-a-notebook)
 
-A notebook represents a journal where the steps conducted for the analysis of simulation data are recorded. It contains a sequence of cells where users can execute python provided by the Iota Python Library to load and analyze their simulation data.
+A notebook can be understood as an interactive journal of the analysis of one or more simulations. It contains a sequence of cells that capture the different steps of the analysis. Cells can contains multiple lines where users can type python commands or text to be executed. Two type of cells are mainly used:
 
+* **Code cells**: users can type python functions including those provided by the Iota Python library.
 
+* **Markdown cells**: users can type here text to add comments for their analysis.
 
-For more detailed information about notebooks, please see the following link: [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
+By default, all new cells are initially added as a code cell, but users can change its type by using the drop-down on the toolbar of the notebook. Users can execute the content of a cell by using Shift-Enter or by clicking the "Run" button on the toolbar. Also, users can add new cells using 
+
+For more detailed information about Jupyter notebooks and the user interface components, please see the following link: [The Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#)
 
 . A cell is a multiline text input field, and its contents can be executed by using Shift-Enter, or by clicking either the “Play” button the toolbar, or Cell, Run in the menu bar. The execution behavior of a cell is determined by the cell’s type. There are three types of cells: code cells, markdown cells, and raw cells. Every cell starts off being a code cell, but its type can be changed by using a drop-down on the toolbar (which will be “Code”, initially), or via keyboard shortcuts.
 
