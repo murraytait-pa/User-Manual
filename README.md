@@ -1,8 +1,8 @@
 # Iota User Manual
 
 
-## Content 
-* [Introduction](README.md)
+### Table of contents
+
 * [Installing Iota](Installation.md)
 * [Registering Iota license](Registration.md)
 * [Getting started](Getting_started.md)
