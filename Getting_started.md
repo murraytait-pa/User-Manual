@@ -41,7 +41,7 @@ For more detailed information about notebooks, please see the following link: [J
 
 ## <a id='getting-started-notebook'></a>[Getting started notebook](#getting-started-notebook)
 
-A getting started package can be downloaded from here: [Download link](). The package includes the files for an ANSYS Fluent simulation with Discrete Phase Modelling data
+A getting started package can be downloaded from here: [Download link](https://s3-eu-west-1.amazonaws.com/particle-analytics/Getting_Started_Notebook.zip). The package includes the files for an ANSYS Fluent simulation with Discrete Phase Modelling data
 
 
 After downloaded, 
