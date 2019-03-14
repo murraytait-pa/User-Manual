@@ -30,7 +30,7 @@ As a good practice, it is recommended to create first a folder for your analysis
 
 ## <a id='what-is-a-notebook'></a>[What is a notebook?](#what-is-a-notebook)
 
-A notebook can be understood as an interactive journal of the analysis of one or more simulations. It contains a sequence of cells that capture the different steps of the analysis. Cells can contains multiple lines where users can type python commands or text to be executed. Two type of cells are mainly used:
+A notebook can be understood as an interactive journal that records the analysis of one or more simulations. It contains a sequence of cells that capture the different steps of the analysis. Cells can contains multiple lines where users can type python commands or simple text. Two type of cells are mainly used:
 
 * **Code cells**: users can type python functions including those provided by the Iota Python library.
 
@@ -40,7 +40,6 @@ By default, all new cells are initially added as a code cell, but users can chan
 
 For more detailed information about Jupyter notebooks and the user interface components, please see the following link: [The Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#)
 
-. A cell is a multiline text input field, and its contents can be executed by using Shift-Enter, or by clicking either the “Play” button the toolbar, or Cell, Run in the menu bar. The execution behavior of a cell is determined by the cell’s type. There are three types of cells: code cells, markdown cells, and raw cells. Every cell starts off being a code cell, but its type can be changed by using a drop-down on the toolbar (which will be “Code”, initially), or via keyboard shortcuts.
 
 
 ## <a id='getting-started-notebook'></a>[Getting started notebook](#getting-started-notebook)
