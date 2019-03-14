@@ -42,7 +42,7 @@ For more detailed information about Jupyter notebooks and the user interface com
 
 ## <a id='getting-started-notebook'></a>[Getting started notebook](#getting-started-notebook)
 
-A getting started package is available for users and can be downloaded from the following link : [Download link](https://s3-eu-west-1.amazonaws.com/particle-analytics/Getting_Started_Notebook.zip). The package contains a notebook where the most common steps to use Iota to analyze an ANSYS Fluent simulation with Discrete Phase Modelling data are described. 
+A getting started package is available and can be downloaded from the following link : [Download link](https://s3-eu-west-1.amazonaws.com/particle-analytics/Getting_Started_Notebook.zip). The package contains a notebook where the most common steps to use Iota to analyze an CFD simulation with Discrete Phase Modelling data are described:
 
 1. Click on the following link to download the zip file that contains the getting started package, 
 2. Unzip the download file into the "ParticleAnalytics" folder located in the user's home directory (e.g. `C:/Users/Stephen/ParticleAnalytics`)
