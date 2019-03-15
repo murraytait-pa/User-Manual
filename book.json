@@ -1,0 +1,28 @@
+{
+"plugins": [
+    "page-numbering",
+    "feathers-collapsible-menu",
+    "heading-anchors",
+    "include-codeblock",
+    "feathers-versions",
+    "advanced-emoji",
+    "code"
+],
+"links": {
+    "sharing": {
+      "google": false,
+      "facebook": false,
+      "twitter": false,
+      "weibo": false,
+      "all": false
+    }
+},
+"pluginsConfig": {
+    "lunr": {
+        "maxIndexSize": 1000000000
+    },
+    "menu": {
+        "deep": false
+    }
+}
+}
