@@ -1,4 +1,4 @@
-\#\#\# Third-Party Licenses
+### Third-Party Licenses
 
 The following table lists third-party licences used in libraries that are supplied alongside Iota-Suite.
 
