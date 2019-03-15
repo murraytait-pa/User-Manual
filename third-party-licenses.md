@@ -26,6 +26,8 @@ The following table lists third-party licences used in libraries that are suppli
 | GLFW | OpenGL Library | [GLFW License \(ZLIB\)](/glfw.md) |
 | GLEW | OpenGL Extension Wrangler Library | [GLEW License](/glew.md) |
 | NumPy | Python package for scientific computing | [NumPy License](/numpy.md)|
+| Pythreejs | Python and Javascript 3D rendering library | [Pythreejs License](/pythreejs.md)|
+| Jupyter | Web application to interactively run code | [Jupyter License](/jupyter.md) |
 
 
 
