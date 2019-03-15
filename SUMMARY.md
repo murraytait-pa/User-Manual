@@ -20,3 +20,8 @@
   * [iota.media](media.md)
   * [iota.coarsegraining](coarsegraining.md)
   * [iota.mesh](mesh.md)
+* [Licensing](licensing.md)
+
+
+
+
