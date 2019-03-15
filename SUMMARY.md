@@ -21,7 +21,8 @@
   * [iota.coarsegraining](coarsegraining.md)
   * [iota.mesh](mesh.md)
 * [Licensing](licensing.md)
-
+  * [Iota-Suite End User Agreement](iota-license.md)
+  * [Third Party Licenses](third-party-licenses.md)
 
 
 
