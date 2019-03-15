@@ -25,6 +25,7 @@ The following table lists third-party licences used in libraries that are suppli
 | Libpng | Image Manipulation Library | [Libpng License](/libpng.md) |
 | GLFW | OpenGL Library | [GLFW License \(ZLIB\)](/glfw.md) |
 | GLEW | OpenGL Extension Wrangler Library | [GLEW License](/glew.md) |
+| NumPy | Python package for scientific computing | [NumPy License](/numpy.md)|
 
 
 
