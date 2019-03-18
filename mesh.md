@@ -46,6 +46,8 @@ This module provides functionalities to operate with data from the meshes.
     * [mesh_load](#mesh_load)
     * [mesh_export](#mesh_export)
     * [mesh_create_line](#mesh_create_line)
+    * [mesh_create_circle](#mesh_create_circle)
+    * [mesh_create_rectangle](#mesh_create_rectangle)
     * [mesh_create_cuboid](#mesh_create_cuboid)
     * [mesh_create_cylinder](#mesh_create_cylinder)
 ------
