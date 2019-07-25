@@ -1,4 +1,4 @@
-# Initial page
+# IOTA User Manual
 
 ## Table of contents
 
